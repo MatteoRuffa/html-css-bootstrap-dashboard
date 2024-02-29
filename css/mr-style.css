@@ -8,6 +8,8 @@
     --mr-color-bg-secondary: #1B72E8;
     --mr-color-bg-header: #F8F9FA;
     --mr-color-bg-contrast: #051E34; 
+    --mr-icons: #F26551;
+    --mr-bg-badges-1: #198754;
 }
 
 body {
@@ -54,4 +56,14 @@ main {
 #wrapper {
     width: calc(100% - 150px);
     background-color: var(--mr-color-bg-primary);
+}
+
+/* TABLE */
+.mr-icon-circle {
+    border: 1px solid var(--mr-icons);
+    border-radius: 50%;
+    background-color: var(--mr-icons);
+    color: var(--mr-color-light);
+    width: 35px;
+    height: 35px;
 }

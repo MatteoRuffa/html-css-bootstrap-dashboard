@@ -59,7 +59,7 @@
                             <!-- TABLE -->
                             <div class="card p-3">
                                 <div class="card">
-                                    <div class="card-header">Prossime classi</div>
+                                    <div class="card-header fs-4 fw-medium">Prossime classi</div>
                                     <div class="card-body">
                                         <!-- DA FARE: 
                                             AGGIUNGERE COLONNA 5
@@ -68,19 +68,31 @@
                                             TROVARE ICONE -->
                                         <table class="table">
                                             <thead>
-                                                <tr>
-                                                    <th scope="col">#</th>
-                                                    <th scope="col">First</th>
-                                                    <th scope="col">Last</th>
-                                                    <th scope="col">Handle</th>
+                                                <tr class="fs-6">
+                                                    <th scope="col">Nome</th>
+                                                    <th scope="col">Data inizio</th>
+                                                    <th scope="col">ROI</th>
+                                                    <th scope="col">Stato</th>
+                                                    <th scope="col">Azioni</th>
                                               </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <th scope="row">1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
+                                                    <th scope="row">
+                                                        <div class="d-flex align-items-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div class="fw-light">Classe 75</div>
+                                                        </div>
+                                                    </th>
+                                                    <td>15 Feb 2021</td>
+                                                    <td>20%</td>
+                                                    <td>
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                    </td>
                                                  </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
