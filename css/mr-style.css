@@ -1,0 +1,50 @@
+/* GENERAL */
+:root {
+    --mr-color-primary: #212529;
+    --mr-color-secondary: #5B5858;
+    --mr-color-light: #FFFFFF;
+    --mr-color-header-bg: #255EE9;
+    --mr-color-bg-primary: #F8F9FA;
+    --mr-color-bg-secondary: #1B72E8;
+    --mr-color-bg-header: #F8F9FA;
+    --mr-color-bg-contrast: #051E34; 
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mr-debug {
+    border: 1px solid red;
+}
+/* HEADER */
+header {
+    background-color: var(--mr-color-bg-header);
+    height: 80px;
+}
+
+/* MAIN */
+
+/* SIDEBAR */
+main nav {
+    width: 150px;
+    background-color: var(--mr-color-bg-contrast);
+    color: var(--mr-color-light);
+}
+/* WRAPPER */
+
+main {
+    padding-top: 80px;
+}
+
+.main-header {
+    background-color: var(--mr-color-bg-secondary);
+}
+
+#wrapper {
+    width: calc(100% - 150px);
+}
