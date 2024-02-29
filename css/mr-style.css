@@ -61,6 +61,15 @@ main {
     background-color: var(--mr-blue-badge);
     border-radius: 20px;
 }
+
+#offcanvas button {
+    border: var(--bs-btn-border-width) solid var(--mr-color-light);
+}
+
+.offcanvas.offcanvas-end {
+    width: 768px;
+}
+
 /* TABLE */
 /* .table {
     font-size: 80%;
