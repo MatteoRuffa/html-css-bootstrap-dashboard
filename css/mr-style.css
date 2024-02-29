@@ -12,8 +12,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-     font-weight: 300;
-     font-style: normal;
+    font-weight: 300;
+    font-style: normal;
 }
 
 ul {
@@ -53,4 +53,5 @@ main {
 
 #wrapper {
     width: calc(100% - 150px);
+    background-color: var(--mr-color-bg-primary);
 }
