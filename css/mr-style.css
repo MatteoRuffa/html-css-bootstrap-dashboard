@@ -62,8 +62,17 @@ main {
     border-radius: 20px;
 }
 
+.mr-app-1 {
+    display: none;
+}
+
 #offcanvas button {
     border: var(--bs-btn-border-width) solid var(--mr-color-light);
+}
+
+#offcanvas button:hover {
+    background-color: var(--mr-color-bg-primary);
+    color: var(--mr-color-primary);
 }
 
 .offcanvas.offcanvas-end {
@@ -105,7 +114,7 @@ main {
 
 /* RESPONSIVE UTILITY */
 @media screen and (min-width: 576px) {
-
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -113,7 +122,12 @@ main {
 } 
 
 @media screen and (min-width: 992px) {
-
+    .mr-app-1 {
+        display: block;
+    } 
+    .mr-app-2 {
+        display: none;
+    }
 }
 
     
