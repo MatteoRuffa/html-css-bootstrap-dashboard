@@ -57,6 +57,10 @@ main {
 }
 
 /* MAIN HEADER */
+div#boolean         {order: 2;}
+div#student         {order: 3;}
+div#new-student     {order: 1;}
+
 #boolean .badge {
     background-color: var(--mr-blue-badge);
     border-radius: 20px;
@@ -118,7 +122,15 @@ main {
 }
 
 @media screen and (min-width: 768px) {
+    div#boolean           {order: 1;}
+    div#student           {order: 2;}
+    div#new-student       {order: 3;}
 
+    #header-main {
+        flex-direction: row!important;
+        justify-content: space-between;
+        align-items: center;
+    }
 } 
 
 @media screen and (min-width: 992px) {
@@ -128,6 +140,7 @@ main {
     .mr-app-2 {
         display: none;
     }
+
 }
 
     
