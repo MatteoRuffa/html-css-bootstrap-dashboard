@@ -22,10 +22,6 @@ ul {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
-
 .mr-debug {
     border: 1px solid red;
 }
@@ -82,3 +78,6 @@ main {
 /* #list-item  ul {
     font-size: 90%;
 } */
+
+/* CARD-IMG */
+
