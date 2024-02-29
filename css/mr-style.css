@@ -59,6 +59,10 @@ main {
 }
 
 /* TABLE */
+/* .table {
+    font-size: 80%;
+} */
+
 .mr-icon-circle {
     border: 1px solid var(--mr-icons);
     border-radius: 50%;
@@ -66,4 +70,10 @@ main {
     color: var(--mr-color-light);
     width: 35px;
     height: 35px;
+}
+
+/* ACCORDION */
+#accordion .accordion-item {
+    border: 0 solid var(--bs-accordion-border-color);
+    border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
