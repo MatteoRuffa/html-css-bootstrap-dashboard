@@ -20,12 +20,33 @@
 
 <body>
     <!-- HEADER -->
-    <header class="fixed-top mr-debug">
-        <div class="header-content d-flex justify-content-between ">
-            <div class="mr-debug">header</div>
-            <div class="w-75 mr-debug">header</div>
-            <div class="mr-debug">header</div>
-        </div>
+    <header class="fixed-top">
+        <nav class="header-content d-flex align-items-center justify-content-between ">
+            <div class="py-3">
+                <div class="container-fluid" id="log-1">
+                    <a class="navbar-brand" href="#">
+                      <img src="./img/logo.svg" alt="logo" >
+                    </a>
+                </div>
+                <div class="container-fluid" id="log-2">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/mobile-logo.png" width="50" alt="mobile-logo" >
+                    </a>
+                </div>
+            </div>
+            <div class="" id="central">
+                <div class="container-fluid">
+                    <form class="d-flex">
+                      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                  </div>
+            </div>
+            <div class="p-2">
+                <div class="">
+                    <i class="fa-solid fa-bell"></i>
+                </div>
+            </div>
+        </nav>
     </header>
     <!-- MAIN -->
     <main class="vh-100">
@@ -83,7 +104,8 @@
                                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                             aria-label="Close"></button>
                                     </div>
-                                    <div class="offcanvas-body fw-medium  ">
+                                    <div class="offcanvas-body fw-medium">
+                                        <!-- RIVEDERE BENE NEL DETTAGLIO TUTTI GLI ID,VALUE, ECC -->
                                         <div class="row">
                                             <div class="col-12 col-md-6 mb-3 ">
                                                 <label for="exampleInputEmail1" class="form-label">Nome</label>

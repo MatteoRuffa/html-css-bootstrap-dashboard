@@ -11,6 +11,7 @@
     --mr-icons: #F26551;
     --mr-bg-badges-1: #198754;
     --mr-blue-badge: #165BBA;
+    --mr-color-bell: #FF8F00;
 }
 
 body {
@@ -30,6 +31,18 @@ ul {
 header {
     background-color: var(--mr-color-bg-header);
     height: 80px;
+}
+
+#central {
+    width: 90%;
+}
+
+#log-1 {
+    display: none;
+}
+
+i.fa-solid.fa-bell {
+    color: var(--mr-color-bell);
 }
 
 /* MAIN */
