@@ -10,6 +10,12 @@
     --mr-color-bg-contrast: #051E34; 
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+}
+
 ul {
     list-style: none;
 }
