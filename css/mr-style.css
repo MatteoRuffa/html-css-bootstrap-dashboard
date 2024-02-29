@@ -67,7 +67,13 @@ main {
 }
 
 .offcanvas.offcanvas-end {
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
+}
+
+#prova {
+    margin-bottom: 0;
+    line-height: 13px;
 }
 
 /* TABLE */
