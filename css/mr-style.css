@@ -77,3 +77,8 @@ main {
     border: 0 solid var(--bs-accordion-border-color);
     border-bottom: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
+
+/* LIST-ITEM-CECKBOX */
+/* #list-item  ul {
+    font-size: 90%;
+} */
