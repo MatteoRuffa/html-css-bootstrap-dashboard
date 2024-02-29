@@ -45,11 +45,47 @@
             <div id="wrapper" class="overflow-y-auto h-100">
                 <!-- MAIN HEADER -->
                 <div class="main-header container-fluid mr-debug">
-                    <div class="row ">
+                    <div class="row">
                         <!-- ¡¡¡VEDERE ORDINE ITEMS VERTICALE CHE E DIVERSO DA DEFAULT!!! -->
-                        <div class="col-12 col-md-4 mr-debug">prova.bg-blu</div>
-                        <div class="col-12 col-md-4 mr-debug">prova.bg-blu</div>
-                        <div class="col-12 col-md-4 mr-debug">prova.bg-blu</div>
+                        <!-- SI FA CON ORDED!!! -->
+                        <div class="col-12 col-md-6 mr-debug pt-4" id="boolean">
+                            <div class="d-flex align-items-center gap-2 ">
+                                <h2>Boolean</h2>
+                                <span class="badge fw-light ">Piano blaze</span>
+                            </div>
+                            <div class="d-flex align-items-center  gap-1 ">
+                                <span class="badge fw-light ">3 app</span>
+                                <span class="fs-3 ">&#187;</span>
+                                <span class="badge fw-light ">Boolean mobile app</span>
+                                <span class="badge fw-light ">Boolean web app</span>
+                                <span class="badge fw-light ">boolean blog app</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mr-debug pt-4" id="student">
+                            <div>Studenti online negli ultimi 30 minuti</div>
+                            <div class="fs-2 ">125</div>
+                        </div>
+                        <div class="col-12 col-md-2 mr-debug pt-4" id="new-student">
+                            <div></div>
+                            <!-- OFFCANVAS -->
+                            <div>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right
+                                    offcanvas</button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        ...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- CONTENT -->
@@ -75,14 +111,16 @@
                                                     <th scope="col">ROI</th>
                                                     <th scope="col">Stato</th>
                                                     <th scope="col">Azioni</th>
-                                              </tr>
+                                                </tr>
                                             </thead>
                                             <tbody>
                                                 <!-- ROW-1 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -92,15 +130,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
-                                                 </tr>
+                                                </tr>
                                                 <!-- ROW-2 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -110,15 +152,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <!-- ROW-3 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -128,15 +174,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <!-- ROW-4 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -146,15 +196,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <!-- ROW-5 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -164,15 +218,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <!-- ROW-6 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -182,15 +240,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <!-- ROW-7 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -200,15 +262,19 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                                 <!-- ROW-8 -->
                                                 <tr>
                                                     <th scope="row">
                                                         <div class="d-flex align-items-center gap-1  ">
-                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">&#60;/&#62;</div>
+                                                            <div
+                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                                &#60;/&#62;</div>
                                                             <div class="fw-light">Classe 75</div>
                                                         </div>
                                                     </th>
@@ -218,8 +284,10 @@
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
                                                     <td>
-                                                        <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
-                                                        <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary "><i
+                                                                class="fa-solid fa-pencil"></i></button>
+                                                        <button type="button" class="btn btn-outline-secondary"><i
+                                                                class="fa-solid fa-trash"></i></button>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -231,42 +299,69 @@
                             <div class="my-3 ">
                                 <div class="card my-3" id="accordion">
                                     <div class="card-header fs-4 fw-medium">
-                                      F.A.Q.
+                                        F.A.Q.
                                     </div>
                                     <div class="accordion p-3" id="accordionExample">
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                                <button class="accordion-button fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                Come aggiungere un nuovo studente?
+                                                <button class="accordion-button fw-medium" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                    aria-expanded="true" aria-controls="collapseOne">
+                                                    Come aggiungere un nuovo studente?
                                                 </button>
                                             </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quo voluptates at necessitatibus autem nam architecto quae eaque error fuga debitis reprehenderit, odio illum praesentium sequi delectus quibusdam est deleniti maiores nisi aspernatur dicta aperiam asperiores? Deserunt adipisci facere officia repellendus, quia dolorem beatae debitis maxime? Culpa consequatur saepe facere.
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                                                    quo voluptates at necessitatibus autem nam architecto quae eaque
+                                                    error fuga debitis reprehenderit, odio illum praesentium sequi
+                                                    delectus quibusdam est deleniti maiores nisi aspernatur dicta
+                                                    aperiam asperiores? Deserunt adipisci facere officia repellendus,
+                                                    quia dolorem beatae debitis maxime? Culpa consequatur saepe facere.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                Come posso accedere alle impostazioni del mio account?
+                                                <button class="accordion-button collapsed fw-medium" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Come posso accedere alle impostazioni del mio account?
                                                 </button>
                                             </h2>
-                                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, in dicta nostrum consequuntur ipsa, facere pariatur alias culpa distinctio assumenda a magnam consequatur dolore veniam atque dolorem ipsum. Iste beatae, sit pariatur aliquid est rerum odio aperiam adipisci porro facere numquam deserunt magnam voluptatibus rem incidunt consequuntur dolorum sequi. Laboriosam.
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    Consectetur, in dicta nostrum consequuntur ipsa, facere pariatur
+                                                    alias culpa distinctio assumenda a magnam consequatur dolore veniam
+                                                    atque dolorem ipsum. Iste beatae, sit pariatur aliquid est rerum
+                                                    odio aperiam adipisci porro facere numquam deserunt magnam
+                                                    voluptatibus rem incidunt consequuntur dolorum sequi. Laboriosam.
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="accordion-item">
                                             <h2 class="accordion-header">
-                                                <button class="accordion-button collapsed fw-medium" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                Posso usare questa dashboard da mobile?
+                                                <button class="accordion-button collapsed fw-medium" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Posso usare questa dashboard da mobile?
                                                 </button>
                                             </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                data-bs-parent="#accordionExample">
                                                 <div class="accordion-body">
-                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nisi rerum esse aperiam explicabo ipsa quibusdam suscipit dicta minus, in dolorem ea ullam at vitae quas perspiciatis dolore libero? Incidunt eum magni, soluta voluptatum, ipsa distinctio hic perspiciatis dolore odio vitae voluptatibus temporibus veniam autem nostrum! Quia magnam eum architecto ratione labore tempora culpa harum, qui quam enim repudiandae reprehenderit optio delectus dolore recusandae ipsam eius suscipit aliquid iste numquam, praesentium eveniet dolores? Fuga eos repudiandae expedita provident? Accusamus, minima.
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nisi
+                                                    rerum esse aperiam explicabo ipsa quibusdam suscipit dicta minus, in
+                                                    dolorem ea ullam at vitae quas perspiciatis dolore libero? Incidunt
+                                                    eum magni, soluta voluptatum, ipsa distinctio hic perspiciatis
+                                                    dolore odio vitae voluptatibus temporibus veniam autem nostrum! Quia
+                                                    magnam eum architecto ratione labore tempora culpa harum, qui quam
+                                                    enim repudiandae reprehenderit optio delectus dolore recusandae
+                                                    ipsam eius suscipit aliquid iste numquam, praesentium eveniet
+                                                    dolores? Fuga eos repudiandae expedita provident? Accusamus, minima.
                                                 </div>
                                             </div>
                                         </div>
@@ -275,18 +370,19 @@
                             </div>
                         </div>
                         <!-- 2^ COLUMN -->
-                        <div class="col-12 col-lg-4 py-3 mr-debug">
+                        <div class="col-12 col-lg-4 py-3">
                             <!-- LIST-ITEM-CECKBOX -->
                             <div id="list-item">
                                 <div class="card mb-3 ">
                                     <div class="card-header fs-4 fw-medium">
-                                      Todo
+                                        Todo
                                     </div>
                                     <div class="card m-3">
                                         <ul class="list-group list-group-flush ">
                                             <li class="list-group-item">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="to do" id="class">
+                                                    <input class="form-check-input" type="checkbox" value="to do"
+                                                        id="class">
                                                     <label class="form-check-label " for="class">
                                                         Kickoff nuove classi
                                                     </label>
@@ -294,19 +390,21 @@
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="lecion" id="bootstrap#75">
+                                                    <input class="form-check-input" type="checkbox" value="lecion"
+                                                        id="bootstrap#75">
                                                     <label class="form-check-label" for="bootstrap#75">
                                                         Lezione Bootstrap 5 in classe #75
                                                     </label>
-                                                  </div>
+                                                </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="form-check">
-                                                    <input class="form-check-input" type="checkbox" value="control" id="user-student">
+                                                    <input class="form-check-input" type="checkbox" value="control"
+                                                        id="user-student">
                                                     <label class="form-check-label" for="user-student">
                                                         Controllare username github studenti
                                                     </label>
-                                                  </div>
+                                                </div>
                                             </li>
                                         </ul>
                                     </div>
@@ -319,7 +417,8 @@
                                         <img src="./img/stats.jpeg" class="card-img-top" alt="stats">
                                         <div class="card-body">
                                             <h5 class="card-title">Utenti attivi</h5>
-                                            <p class="card-text">Lista degli utenti attivi inpiattaforma nell'ultimo mese</p>
+                                            <p class="card-text">Lista degli utenti attivi inpiattaforma nell'ultimo
+                                                mese</p>
                                         </div>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">Gennaio: 1200</li>

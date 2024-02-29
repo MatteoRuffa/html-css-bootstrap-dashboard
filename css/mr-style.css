@@ -10,6 +10,7 @@
     --mr-color-bg-contrast: #051E34; 
     --mr-icons: #F26551;
     --mr-bg-badges-1: #198754;
+    --mr-blue-badge: #165BBA;
 }
 
 body {
@@ -47,6 +48,7 @@ main {
 
 .main-header {
     background-color: var(--mr-color-bg-secondary);
+    color: var(--mr-color-light);
 }
 
 #wrapper {
@@ -54,6 +56,11 @@ main {
     background-color: var(--mr-color-bg-primary);
 }
 
+/* MAIN HEADER */
+#boolean .badge {
+    background-color: var(--mr-blue-badge);
+    border-radius: 20px;
+}
 /* TABLE */
 /* .table {
     font-size: 80%;
@@ -80,4 +87,20 @@ main {
 } */
 
 /* CARD-IMG */
+
+/* RESPONSIVE UTILITY */
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+} 
+
+@media screen and (min-width: 992px) {
+
+}
+
+    
+
 
