@@ -30,16 +30,11 @@ ul {
 /* HEADER */
 header {
     background-color: var(--mr-color-bg-header);
-    height: 80px;
+    height: 90px;
 }
 
-/* #left,
-#right {
-    width: 18%;
-} */
-
- #central {
-    width: 70%;
+#central {
+    width: 90%;
 } 
 
 i.fa-solid.fa-bell {
@@ -49,18 +44,13 @@ i.fa-solid.fa-bell {
 #right a {
     color: var(--mr-color-secondary);
 }
+
 #right button {
     padding: 0;
 }
 
 #right button::after{
     display: none;
-}
-
-nav input::before {
-    float: inherit ;
-    content: '\f002';
-    font-family: "FontAwesome";
 }
 
 /* MAIN */
@@ -84,7 +74,7 @@ main nav {
 /* WRAPPER */
 
 main {
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 .main-header {
@@ -215,6 +205,9 @@ div#new-student     {order: 1;}
     #wrapper {
         width: calc(100% - 150px);
     }
+    #central {
+        width: 70%;
+    } 
 }
 
     
