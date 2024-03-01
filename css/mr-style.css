@@ -133,11 +133,17 @@ div#new-student     {order: 1;}
 }
 
 /* LIST-ITEM-CECKBOX */
-/* #list-item  ul {
-    font-size: 90%;
-} */
+#list-item  ul {
+    font-size: 0.9rem;
+}
 
 /* CARD-IMG */
+#card-img ul li,
+#card-img p,
+#card-img a {
+    font-size: 0.9rem;
+    font-weight: normal;
+}
 
 /* RESPONSIVE UTILITY */
 @media screen and (min-width: 576px) {
