@@ -131,6 +131,11 @@ div#new-student     {order: 1;}
     font-size: 0.9rem;
 }
 
+.badge {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
 .mr-icon-circle {
     border: 1px solid var(--mr-icons);
     border-radius: 50%;
@@ -157,7 +162,7 @@ div#new-student     {order: 1;}
 }
 
 /* LIST-ITEM-CECKBOX */
-#list-item  ul {
+#list-item  label {
     font-size: 0.9rem;
 }
 
