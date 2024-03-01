@@ -26,29 +26,42 @@
             DARE SHADOW BOTTOM
             DARE BG- WHITE CENTRAL
              -->
-        <nav class="header-content d-flex align-items-center justify-content-between ">
-            <div class="py-3">
-                <div class="container-fluid" id="log-1">
+        <nav class="header-content d-flex align-items-center justify-content-between  my-2">
+            <div class="py-3" id="left">
+                <div class="container-fluid d-none d-lg-block ">
                     <a class="navbar-brand" href="#">
                       <img src="./img/logo.svg" alt="logo" >
                     </a>
                 </div>
-                <div class="container-fluid" id="log-2">
+                <div class="container-fluid d-lg-none">
                     <a class="navbar-brand" href="#">
                         <img src="./img/mobile-logo.png" width="50" alt="mobile-logo" >
                     </a>
                 </div>
             </div>
             <div class="" id="central">
-                <div class="container-fluid">
-                    <form class="d-flex">
-                      <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    </form>
-                  </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="search" class="form-control" placeholder="Prova a cercare: Lezione di Laravel" aria-describedby="addon-wrapping">
+                </div>
             </div>
-            <div class="p-2">
+            <div class="d-flex justify-content-center  px-lg-1" id="right">
+                <div class="d-none d-lg-block">
+                    <a href="#"><i class="fa-solid fa-list-ul px-2 px-xl-3 "></i></a>
+                    <a href="#"><i class="fa-solid fa-circle-question px-2 px-xl-3"></i></a>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical px-2 px-xl-3"></i></a>
+                </div>
                 <div class="">
-                    <i class="fa-solid fa-bell"></i>
+                    <div class="btn-group dropdown  px-2 px-xl-3">
+                        <button type="button" class="btn btn-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item" href="#">Logout</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>

@@ -33,16 +33,35 @@ header {
     height: 80px;
 }
 
-#central {
-    width: 90%;
-}
+/* #left,
+#right {
+    width: 18%;
+} */
 
-#log-1 {
-    display: none;
-}
+ #central {
+    width: 70%;
+} 
 
 i.fa-solid.fa-bell {
     color: var(--mr-color-bell);
+}
+
+#right a {
+    color: var(--mr-color-secondary);
+}
+#right button {
+    padding: 0;
+}
+
+#right button::after{
+    display: none;
+}
+
+
+nav input::before {
+    float: inherit ;
+    content: '\f002';
+    font-family: "FontAwesome";
 }
 
 /* MAIN */
