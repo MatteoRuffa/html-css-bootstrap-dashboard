@@ -21,11 +21,6 @@
 <body>
     <!-- HEADER -->
     <header class="fixed-top">
-        <!-- FINIRE IN GENERALE
-            FINIRE RESPONSIVE
-            DARE SHADOW BOTTOM
-            DARE BG- WHITE CENTRAL
-             -->
         <nav class="header-content d-flex align-items-center justify-content-between  my-2">
             <div class="py-3" id="left">
                 <div class="container-fluid d-none d-lg-block ">
@@ -71,24 +66,64 @@
         <div class="h-100 d-flex">
             <!-- METTERE SIDEBAR DENTRO WRAPPER -->
             <!-- SIDEBAR -->
-            <nav class="h-100 p-3 d-flex flex-column justify-content-between mr-debug">
+            <nav class="h-100  d-flex flex-column justify-content-between" id="nav-list">
                 <div>
-                    <ul class="mr-debug">
-                        <li>sidebar</li>
-                        <li>sidebar</li>
-                        <li>sidebar</li>
+                    <ul class="p-4 m-0 ">
+                        <li class="py-2">
+                            <div class="row">
+                                <div class="col-2"><i class="fa-solid fa-house"></i></div>
+                                <div class="col-2 d-none d-lg-block ">
+                                    <a class="text-white" href="#">
+                                        <span class="px-2">Home</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <div class="row">
+                                <div class="col-2"><i class="fa-solid fa-chart-simple"></i></div>
+                                <div class="col-2 d-none d-lg-block ">
+                                    <a class="text-white" href="#">
+                                        <span class="px-2">Stats</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="py-2">
+                            <div class="row">
+                                <div class="col-2"><i class="fa-solid fa-signal"></i></div>
+                                <div class="col-2 d-none d-lg-block ">
+                                    <a class="text-white" href="#">
+                                        <span class="px-2">Signals</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div class="mr-debug">sidebar</div>
+                <div >
+                    <ul class="p-4 m-0">
+                        <li class="py-2">
+                            <div class="row">
+                                <div class="col-2"><i class="fa-solid fa-gear"></i></div>
+                                <div class="col-2 d-none d-lg-block ">
+                                    <a class="text-white" href="#">
+                                        <span class="px-2">Admin</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </nav>
             <!-- WRAPPER -->
             <div id="wrapper" class="overflow-y-auto h-100">
                 <!-- MAIN HEADER -->
                 <div class="main-header container-fluid">
-                    <div class="d-flex flex-column" id="header-main">
-                        <div class="py-3" id="boolean">
+                    <div class="d-flex flex-column justify-content-between " id="button-nav">
+                        <div class="py-3 pe-2" id="boolean">
                             <div class="d-flex align-items-center gap-2 ">
-                                <h2 class="m-0 ">Boolean</h2>
+                                <h2 class="m-0">Boolean</h2>
                                 <span class="badge fw-light ">Piano blaze</span>
                             </div>
                             <div class="d-flex align-items-center gap-1 ">
@@ -104,11 +139,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="py-4" id="student">
+                        <div class="py-4 px-2" id="student">
                             <div>Studenti online negli ultimi 30 minuti</div>
                             <div class="fs-2 ">125</div>
                         </div>
-                        <div class="d-flex align-items-center gap-2 py-4" id="new-student">
+                        <div class="d-flex align-items-center gap-2 py-4 ps-2" id="new-student">
                             <div>Nuovo Studente</div>
                             <!-- OFFCANVAS -->
                             <div id="offcanvas">
@@ -229,7 +264,7 @@
                                                 <!-- ROW-1 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row  gap-1">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;
@@ -252,9 +287,8 @@
                                                 <!-- ROW-2 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 76</div>
                                                         </div>
@@ -274,9 +308,8 @@
                                                 <!-- ROW-3 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 77</div>
                                                         </div>
@@ -296,9 +329,8 @@
                                                 <!-- ROW-4 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 78</div>
                                                         </div>
@@ -318,9 +350,8 @@
                                                 <!-- ROW-5 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 79</div>
                                                         </div>
@@ -340,9 +371,8 @@
                                                 <!-- ROW-6 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 80</div>
                                                         </div>
@@ -362,9 +392,8 @@
                                                 <!-- ROW-7 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 81</div>
                                                         </div>
@@ -384,9 +413,8 @@
                                                 <!-- ROW-8 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex  flex-column flex-md-row gap-1  ">
-                                                            <div
-                                                                class="mr-icon-circle d-flex align-items-center justify-content-center ">
+                                                        <div class="d-flex  flex-column flex-md-row align-items-md-center gap-1  ">
+                                                            <div class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
                                                             <div class="fw-normal">Classe 82</div>
                                                         </div>

@@ -57,7 +57,6 @@ i.fa-solid.fa-bell {
     display: none;
 }
 
-
 nav input::before {
     float: inherit ;
     content: '\f002';
@@ -68,9 +67,15 @@ nav input::before {
 
 /* SIDEBAR */
 main nav {
-    width: 150px;
-    background-color: var(--mr-color-bg-contrast);
+    width: 70px;
     color: var(--mr-color-light);
+    background: url(../img/sidebar-bg.png);
+    background-color: var(--mr-color-bg-contrast);
+}
+
+#nav-list ul li a {
+    color: var(--mr-color-bg-primary);
+    text-decoration: none;
 }
 /* WRAPPER */
 
@@ -170,11 +175,12 @@ div#new-student     {order: 1;}
 }
 
 @media screen and (min-width: 768px) {
+
     div#boolean           {order: 1;}
     div#student           {order: 2;}
     div#new-student       {order: 3;}
 
-    #header-main {
+    .main-header #button-nav{
         flex-direction: row!important;
         justify-content: space-between;
         align-items: center;
@@ -203,6 +209,10 @@ div#new-student     {order: 1;}
     } 
     .mr-app-2 {
         display: none;
+    }
+
+    main nav {
+        width: 150px;
     }
 
 }
