@@ -103,17 +103,27 @@ div#new-student     {order: 1;}
 }
 
 /* TABLE */
-/* .table {
-    font-size: 80%;
-} */
+#table {
+    font-size: 0.9rem;
+}
 
 .mr-icon-circle {
     border: 1px solid var(--mr-icons);
     border-radius: 50%;
     background-color: var(--mr-icons);
     color: var(--mr-color-light);
-    width: 35px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+}
+
+#table th:not(th:first-child),
+#table td:not(td:first-child)  {
+    text-align: center;
+}
+
+#table button {
+    aspect-ratio: 1 / 1;
+    font-size: 0.7rem;
 }
 
 /* ACCORDION */
@@ -143,6 +153,22 @@ div#new-student     {order: 1;}
         flex-direction: row!important;
         justify-content: space-between;
         align-items: center;
+    }
+
+    #table th:nth-child(2) {
+        width: 20%;
+    }
+    
+    #table th:nth-child(3) {
+        width: 8%;
+    }
+    
+    #table th:nth-child(4) {
+        width: 10%;
+    }
+    
+    #table th:last-child {
+        width: 22%;
     }
 } 
 

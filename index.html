@@ -56,6 +56,7 @@
     <!-- MAIN -->
     <main class="vh-100">
         <div class="h-100 d-flex">
+            <!-- METTERE SIDEBAR DENTRO WRAPPER -->
             <!-- SIDEBAR -->
             <nav class="h-100 p-3 d-flex flex-column justify-content-between mr-debug">
                 <div>
@@ -72,7 +73,6 @@
                 <!-- MAIN HEADER -->
                 <div class="main-header container-fluid">
                     <div class="d-flex flex-column" id="header-main">
-                        <!-- ¡¡¡VEDERE ORDINE ITEMS VERTICALE CHE E DIVERSO DA DEFAULT!!! -->
                         <div class="py-3" id="boolean">
                             <div class="d-flex align-items-center gap-2 ">
                                 <h2 class="m-0 ">Boolean</h2>
@@ -202,34 +202,30 @@
                                 <div class="card">
                                     <div class="card-header fs-4 fw-medium">Prossime classi</div>
                                     <div class="card-body">
-                                        <!-- DA FARE: 
-                                            AGGIUNGERE COLONNA 5
-                                            FAR SPARIRE UNA COLONNA AL RIDURRE PAGINA
-                                            COMPILARLA
-                                            TROVARE ICONE -->
-                                        <table class="table">
+                                        <table class="table" id="table">
                                             <thead>
                                                 <tr class="fs-6">
                                                     <th scope="col">Nome</th>
-                                                    <th scope="col">Data inizio</th>
-                                                    <th scope="col">ROI</th>
+                                                    <th class="d-none d-md-table-cell " scope="col">Data inizio</th>
+                                                    <th class="d-none d-md-table-cell " scope="col">ROI</th>
                                                     <th scope="col">Stato</th>
                                                     <th scope="col">Azioni</th>
                                                 </tr>
                                             </thead>
-                                            <tbody>
+                                            <tbody class="fw-normal   ">
                                                 <!-- ROW-1 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row  gap-1">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
-                                                                &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                                &#60;/&#62;
+                                                            </div>
+                                                            <div class="fw-normal">Classe 75</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">15 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -243,15 +239,15 @@
                                                 <!-- ROW-2 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 76</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">16 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -265,17 +261,17 @@
                                                 <!-- ROW-3 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 77</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">17 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
-                                                        <span class="badge text-bg-success">Done</span>
+                                                        <span class="badge bg-warning text-dark text-white ">Process</span>
                                                     </td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary "><i
@@ -287,15 +283,15 @@
                                                 <!-- ROW-4 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 78</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">18 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -309,17 +305,17 @@
                                                 <!-- ROW-5 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 79</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">19 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
-                                                        <span class="badge text-bg-success">Done</span>
+                                                        <span class="badge bg-danger">Failed</span>
                                                     </td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary "><i
@@ -331,15 +327,15 @@
                                                 <!-- ROW-6 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 80</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">20 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
@@ -353,17 +349,17 @@
                                                 <!-- ROW-7 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 81</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">21 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell ">20%</td>
                                                     <td>
-                                                        <span class="badge text-bg-success">Done</span>
+                                                        <span class="badge bg-danger">Failed</span>
                                                     </td>
                                                     <td>
                                                         <button type="button" class="btn btn-outline-secondary "><i
@@ -375,15 +371,15 @@
                                                 <!-- ROW-8 -->
                                                 <tr>
                                                     <th scope="row">
-                                                        <div class="d-flex align-items-center gap-1  ">
+                                                        <div class="d-flex  flex-column flex-md-row gap-1  ">
                                                             <div
                                                                 class="mr-icon-circle d-flex align-items-center justify-content-center ">
                                                                 &#60;/&#62;</div>
-                                                            <div class="fw-light">Classe 75</div>
+                                                            <div class="fw-normal">Classe 82</div>
                                                         </div>
                                                     </th>
-                                                    <td>15 Feb 2021</td>
-                                                    <td>20%</td>
+                                                    <td class="d-none d-md-table-cell ">22 Feb 2021</td>
+                                                    <td class="d-none d-md-table-cell "> 20%</td>
                                                     <td>
                                                         <span class="badge text-bg-success">Done</span>
                                                     </td>
